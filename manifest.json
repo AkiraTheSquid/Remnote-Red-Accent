@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
-    "id": "Remnote Red",
-    "name": "Rekmnote Red",
+    "id": "remnote_red",
+    "name": "Remnote Red",
     "author": "AkiraTheSquid",
     "repoUrl": "https://github.com/AkiraTheSquid/Remnote-Red-Accent",
     "version": {
