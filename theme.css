@@ -1,0 +1,268 @@
+:root body.light{
+    /*YOUR THEME NAME HERE*/
+
+--rn-colors-blue-60: var(--link-color)!important;
+
+--rn-colors-blue-20: var(--rn-colors-red)!important;
+
+    --accent-color: #e81123 !important; 
+    /*changes the color of most buttons*/
+    
+    --dark-accent-color: #BE0E1D ;
+    
+  
+    
+    
+    --hover-color: #F9BEC3 !important; /*changes the color of hover elements*/
+   
+   --link-color: var(--accent-color)!important;
+    
+
+
+--references: var(--accent-color);}
+
+
+    
+    
+:root body.dark{
+    /*YOUR THEME NAME HERE*/
+
+--rn-colors-blue-60: var(--link-color)!important;
+
+--rn-colors-blue-20: var(--rn-colors-red)!important;
+
+    --accent-color: #e81123 !important; 
+    /*changes the color of most buttons*/
+    
+    --dark-accent-color: #BE0E1D ;
+    
+  
+    
+    
+    --hover-color: rgb(232, 17, 35, 0.4) !important; /*changes the color of hover elements*/
+   
+   --link-color: var(--accent-color)!important;
+    
+
+
+--references: var(--accent-color);}
+
+
+
+/*****
+Flashcard home background
+******/
+:root body.dark{
+.bg-opacity-50.bg-slate-900 {
+    background: linear-gradient(31deg, rgb(39, 6, 7, 70%) 33%, rgb(116, 32, 34, 65%) 52%, rgb(24, 5, 6, 70%) 76%) !important;
+}
+}
+
+:root body.light{
+.flex.flex-row.items-center.justify-center.pt-10 {
+    background: linear-gradient(56deg, rgb(255, 245, 245 , 70%) 33%, rgb(255, 210, 210, 65%) 52%, rgb(255, 255, 255, 70%) 76%) !important;
+}
+
+.flex.flex-row.items-center.gap-2.select-none.cursor-pointer.hover-active\:rn-clr-background--hovered.rounded.border-0.bg-transparent.rn-clr-content-primary.p-1.py-0\.5 {
+    display: none;
+}
+
+.flex.flex-row.items-center.gap-2.p-2.invisible.ml-8 {
+    display: none;
+}
+}
+/******************
+Add in code for search portal color
+***************/
+
+
+/*************
+Image modification
+**************/
+img.inline.text-icon.pl-\[2px\].mr-1.align-text-bottom {
+    filter: hue-rotate(115deg);
+}
+
+
+/************************
+Accent color
+************************/
+
+:root body{
+    
+    
+    /*button in flashcard home*/
+    button.shadow-light-10.px-3.py-\[6px\].dark\:rn-clr-content-primary.justify-center.leading-5.rounded-md.text-white.flex.items-center.gap-1.text-sm.rn-clr-background-accent.w-full {
+    background: var(--accent-color);
+}
+
+    .w-\[26px\].h-\[26px\].inline-flex {
+        background: var(--accent-color)!important;
+    }
+    
+    /*annoying button flashcard home*/
+    svg.inline-block.ml-\[2px\] {
+    border-radius: 90%;
+    background: linear-gradient(0deg, var(--accent-color), var(--hover-color));
+    width: 30px !important;
+    min-width: 35px !important;
+    height: 20px !important;
+    min-height: 34px !important;
+    max-width: 40px !important;
+    max-height: 20px !important;
+}
+ 
+ /*pdf bar color modification*/
+ .h-full.rounded-r-full.absolute.top-0.left-0 {
+    background: linear-gradient(270deg, var(--accent-color) -0.66%, var(--hover-color) 100%) !important;
+}
+
+
+ /********remnote selectors*******/
+ 
+ 
+ /*general*/
+ .rn-clr-border-accent {
+     border-color: var(--accent-color)
+     }
+ 
+
+
+    .rn-button--primary {
+background: var(--accent-color);
+}
+
+.rn-clr-content-accent {
+color: red
+
+}
+
+.rn-global-practice-button {
+    background: var(--accent-color)!important;
+    }
+
+
+/*dev-selectors*/
+
+ /*portal border*/
+  
+
+
+
+}
+
+/*********
+dark Accent color
+*********/
+
+:root body {
+ 
+ 
+ span.border-transparent.bg-blue-50.rn-checkbox.cursor-pointer.rn-checkbox--checked.rem-checkbox {
+    background: var(--dark-accent-color);
+}
+
+span.border-transparent.bg-blue-50.rn-checkbox.cursor-pointer.rn-checkbox--checked {
+    background: var(--dark-accent-color);
+}
+}
+
+
+/************************
+--hover-color
+************************/
+:root body{
+   
+   
+   
+    
+    /*remnote selectors*/
+    .rn-fill-in-blank--unrevealed {
+        background: var(--hover-color);
+        color: var(--accent-color);
+}
+    
+    
+   .rn-rem-reference:hover{
+     background: var(--hover-color);
+     }
+    
+  
+    .rn-sidebar-add-button:hover {
+        background: var(--hover-color)
+        }
+    
+    
+
+
+.rn-clr-background-light-accent {
+
+background: var(--hover-color)!important
+}
+
+
+
+
+/*dev selectors*/
+
+
+/*css codebox background*/
+.bg-cyan-10.flex.text-sm.rounded-lg.p-3.max-w-\[min\(100\%\,100vw\)\].box-border {
+background: var(--hover-color);
+
+}
+
+}
+/**************
+portal
+***************/
+.rn-search-portal {
+    color: red!important
+    }
+    
+    
+   
+
+    /************
+    --rn-colors-blue-x
+    ************/
+    :root body{
+        
+        .text-blue-0 {
+    color: var(--rn-colors-red-0);
+}
+        .text-blue-5 {
+    color: var(--rn-colors-red-5);
+}
+        .text-blue-10 {
+    color: var(--rn-colors-red-10);
+}
+       
+    .text-blue-20 {
+    color: var(--rn-colors-red-20);
+}
+       .text-blue-30 {
+    color: var(--rn-colors-red-30);
+}
+     .text-blue-40 {
+    color: var(--rn-colors-red-40);
+}
+    .text-blue-50 {
+    color: var(--rn-colors-red-50);
+}
+    .text-blue-60 {
+    color: var(--rn-colors-red-60);
+}
+
+} 
+/***********
+--references
+***********/ 
+
+ .rn-rem-reference{
+     color: var(--references) !important;
+     }
+     
+
+     
+     
