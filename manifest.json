@@ -9,7 +9,7 @@
       "minor": 4,
       "patch": 0
     },
-    "theme": [],
+    "theme": ["dark"],
     "enableOnMobile": false,
     "description": "Exactly the same theme as remnote, but red",
     "requestNative": false,
