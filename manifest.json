@@ -6,10 +6,10 @@
     "repoUrl": "https://github.com/AkiraTheSquid/Remnote-Red-Accent",
     "version": {
       "major": 0,
-      "minor": 6,
+      "minor": 7,
       "patch": 0
     },
-    "theme": ["dark"],
+    "theme": [],
     "enableOnMobile": false,
     "description": "Exactly the same theme as remnote, but red",
     "requestNative": false,
